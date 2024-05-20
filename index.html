@@ -1,67 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
 
-    <header>
-        <nav>
-            <p>AluraGeek</p>
-        </nav>
+    <header class="header">
+        <p>AluraGeek</p>
     </header>
 
-    <main>
-        <section>
-            <h2>Mis Productos</h2>
-            <div>
-                <div>
-                    <img src="" alt="">
-                    <p>Game Boy Classic</p>
-                    <div>
-                        <p>$ 60,00</p>
-                        <img src="" alt="">
+    <main class="main">
+        <div class="container">
+            <section class="products_section">
+                <h2>Mis Productos:</h2>
+                <div class="products_container">
+                    <div class="card">
+                        <img src="./img/toy.jpg" alt="">
+                        <p>Game Boy Classic</p>
+                        <div class="products_information">
+                            <p>$ 60,00</p>
+                            <img src="./img/delete-icon.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/toy.jpg" alt="">
+                        <p>Game Boy Classic</p>
+                        <div class="products_information">
+                            <p>$ 60,00</p>
+                            <img src="./img/delete-icon.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/toy.jpg" alt="">
+                        <p>Game Boy Classic</p>
+                        <div class="products_information">
+                            <p>$ 60,00</p>
+                            <img src="./img/delete-icon.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/toy.jpg" alt="">
+                        <p>Game Boy Classic</p>
+                        <div class="products_information">
+                            <p>$ 60,00</p>
+                            <img src="./img/delete-icon.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/toy.jpg" alt="">
+                        <p>Game Boy Classic</p>
+                        <div class="products_information">
+                            <p>$ 60,00</p>
+                            <img src="./img/delete-icon.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/toy.jpg" alt="">
+                        <p>Game Boy Classic</p>
+                        <div class="products_information">
+                            <p>$ 60,00</p>
+                            <img src="./img/delete-icon.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/toy.jpg" alt="">
+                        <p>Game Boy Classic</p>
+                        <div class="products_information">
+                            <p>$ 60,00</p>
+                            <img src="./img/delete-icon.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/toy.jpg" alt="">
+                        <p>Game Boy Classic</p>
+                        <div class="products_information">
+                            <p>$ 60,00</p>
+                            <img src="./img/delete-icon.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/toy.jpg" alt="">
+                        <p>Game Boy Classic</p>
+                        <div class="products_information">
+                            <p>$ 60,00</p>
+                            <img src="./img/delete-icon.svg" alt="">
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section>
-            <form action="">
-                <h3>AGREGAR PRODUCTO:</h3>
-                <div>
-                    <fieldset>
-                        <label for="name">Nombre</label>
-                        <input name="name" type="text">
-                        <span></span>
-                    </fieldset>
-                    <fieldset>
-                        <label for="price">Precio</label>
-                        <input name="price" type="text">
-                        <span></span>
-                    </fieldset>
-                    <fieldset>
-                        <label for="image">Imagen</label>
-                        <input name="image" type="text">
-                        <span></span>
-                    </fieldset>
-                </div>
-                <div>
-                    <input type="submit">
-                    <button>Limpiar</button>
-                </div>
-            </form>
-        </section>
+            </section>
+            <section class="form_section">
+                <form class="form">
+                    <h3>AGREGAR PRODUCTO:</h3>
+                    <div>
+                        <fieldset class="input_form">
+                            <label for="name">Nombre</label>
+                            <input name="name" type="text">
+                            <span></span>
+                        </fieldset>
+                        <fieldset class="input_form">
+                            <label for="price">Precio</label>
+                            <input name="price" type="text">
+                            <span></span>
+                        </fieldset>
+                        <fieldset class="input_form">
+                            <label for="image">Imagen</label>
+                            <input name="image" type="text">
+                            <span></span>
+                        </fieldset>
+                    </div>
+                    <div class="form_buttons">
+                        <input type="submit" class="button button_submit">
+                        <button class="button">Limpiar</button>
+                    </div>
+                </form>
+            </section>
+        </div>
     </main>
 
-    <footer>
+    <footer class="footer">
         <p>AluraGeek</p>
         <p>Desarrollado por <a href="/">Leonardo Salazar</a></p>
         <p>ALURA LATAM - 2024</p>
     </footer>
 
-    <script src="./main.js"></script>
+    <script src="./js/main.js"></script>
 </body>
+
 </html>
