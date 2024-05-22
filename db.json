@@ -1,76 +1,87 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "name": "Super Mario y Yoshi",
-            "price": 15,
-            "image": "https://images.pexels.com/photos/163077/mario-yoschi-figures-funny-163077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        },
-        {
-            "id": 2,
-            "name": "Patos",
-            "price": 2,
-            "image": "https://images.pexels.com/photos/132464/pexels-photo-132464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        },
-        {
-            "id": 3,
-            "name": "Bus",
-            "price": 4,
-            "image": "https://images.pexels.com/photos/385998/pexels-photo-385998.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        },
-        {
-            "id": 4,
-            "name": "Animales",
-            "price": 3,
-            "image": "https://images.pexels.com/photos/3661222/pexels-photo-3661222.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        },
-        {
-            "id": 5,
-            "name": "Canicas",
-            "price": 1,
-            "image": "https://images.pexels.com/photos/139167/pexels-photo-139167.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        },
-        {
-            "id": 6,
-            "name": "Niño y niña",
-            "price": 3,
-            "image": "https://images.pexels.com/photos/1767434/pexels-photo-1767434.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        },
-        {
-            "id": 7,
-            "name": "Dinosaurios",
-            "price": 2,
-            "image": "https://images.pexels.com/photos/3661194/pexels-photo-3661194.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        },
-        {
-            "id": 8,
-            "name": "Oveja",
-            "price": 1,
-            "image": "https://images.pexels.com/photos/1362595/pexels-photo-1362595.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        },
-        {
-            "id": 9,
-            "name": "Caballos",
-            "price": 4,
-            "image": "https://images.pexels.com/photos/1340184/pexels-photo-1340184.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        },
-        {
-            "id": 10,
-            "name": "Leones",
-            "price": 7,
-            "image": "https://images.pexels.com/photos/1387014/pexels-photo-1387014.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        },
-        {
-            "id": 11,
-            "name": "Carro",
-            "price": 11,
-            "image": "https://images.pexels.com/photos/35967/mini-cooper-auto-model-vehicle.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        },
-        {
-            "id": 12,
-            "name": "Avión",
-            "price": 5,
-            "image": "https://images.pexels.com/photos/346804/pexels-photo-346804.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        }
-    ]
+  "products": [
+    {
+      "id": "1",
+      "name": "Super Mario y Yoshi",
+      "price": 15,
+      "image": "https://images.pexels.com/photos/163077/mario-yoschi-figures-funny-163077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": "2",
+      "name": "Patos",
+      "price": 2,
+      "image": "https://images.pexels.com/photos/132464/pexels-photo-132464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": "3",
+      "name": "Bus",
+      "price": 4,
+      "image": "https://images.pexels.com/photos/385998/pexels-photo-385998.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": "4",
+      "name": "Animales",
+      "price": 3,
+      "image": "https://images.pexels.com/photos/3661222/pexels-photo-3661222.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": "5",
+      "name": "Canicas",
+      "price": 1,
+      "image": "https://images.pexels.com/photos/139167/pexels-photo-139167.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": "6",
+      "name": "Niño y niña",
+      "price": 3,
+      "image": "https://images.pexels.com/photos/1767434/pexels-photo-1767434.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": "7",
+      "name": "Dinosaurios",
+      "price": 2,
+      "image": "https://images.pexels.com/photos/3661194/pexels-photo-3661194.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": "8",
+      "name": "Oveja",
+      "price": 1,
+      "image": "https://images.pexels.com/photos/1362595/pexels-photo-1362595.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": "9",
+      "name": "Caballos",
+      "price": 4,
+      "image": "https://images.pexels.com/photos/1340184/pexels-photo-1340184.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": "10",
+      "name": "Leones",
+      "price": 7,
+      "image": "https://images.pexels.com/photos/1387014/pexels-photo-1387014.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": "11",
+      "name": "Carro",
+      "price": 11,
+      "image": "https://images.pexels.com/photos/35967/mini-cooper-auto-model-vehicle.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": "12",
+      "name": "Avión",
+      "price": 5,
+      "image": "https://images.pexels.com/photos/346804/pexels-photo-346804.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": "ec5d",
+      "price": "15",
+      "image": "https://images.pexels.com/photos/132464/pexels-photo-132464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": "cb9c",
+      "name": "paticos",
+      "price": "7",
+      "image": "https://images.pexels.com/photos/132464/pexels-photo-132464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+  ]
 }

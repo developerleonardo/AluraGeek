@@ -1,4 +1,5 @@
 import { conectionAPI } from "./conectionAPI.js";
+import { createNewCard } from "./createNewCard.js";
 
 const list = document.querySelector('[data-products]');
 
