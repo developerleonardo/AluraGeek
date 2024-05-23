@@ -16,7 +16,6 @@ const createCard = async (event) => {
 };
 
 form.addEventListener('submit', (event) => createCard(event));
-
 export const createNewCard = {
-
+    createCard
 }

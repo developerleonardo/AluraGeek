@@ -7,14 +7,13 @@ const createCard = (name, price, image) => {
     const product = document.createElement('div');
     product.className = 'card';
     product.innerHTML = `
-    <div class="card">
-        <img src="${image}" alt="">
+        <img src="${image}" alt="a preview of the product">
         <p>${name}</p>
         <div class="products_information">
             <p>$ ${price}</p>
-            <img src="./img/delete-icon.svg" alt="">
+            <img src="./img/delete-icon.svg" alt="delete icon" data-delete>
         </div>
-    </div>`;
+    `;
 
     return product;
 };
@@ -26,4 +25,18 @@ const listProducts = async () => {
     })
 };
 
+const deleteProduct = async () => {
+    const listAPI = await conectionAPI.listProducts();
+    if (listAPI.length > 0) {
+        const deleteIcons = await document.querySelectorAll('[data-delete]');
+        for (let index = 0; index < deleteIcons.length; index++) {
+            let product = listAPI[index];
+            deleteIcons[index].addEventListener('click', () => {
+                conectionAPI.deleteProduct(product.id);
+            });
+        }
+    }
+};
+
 listProducts();
+deleteProduct();
